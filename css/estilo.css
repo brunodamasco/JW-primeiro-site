@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#site{
+	height: auto;
+	width: 800px;
+	margin: 5px auto;
+}
+#site a:hover{
+	color: #FFF;
+	background: #6d790f;
+	text-decoration: none;
+}
+#site a:active{
+	color: #e4f371;
+}
+.barra{
+	height: 40px;
+	background: #002e68;
+	clear: both;
+}
+#barra_topo a{
+	color: #fff;
+	text-decoration: none;
+	float: right;
+	padding: 11px 40px;
+}
+
+#logo{
+	height: 195px;
+	float: left;
+}
+#banner{
+	height: 195px;
+	float: right;
+}
+
+#barra_menu ul{
+	list-style: none;
+	display: inline;
+
+}
+
+#barra_menu ul li{
+	display: inline;
+}
+
+#barra_menu a{
+	display: inline-block;
+	list-style: none;
+	color: #fff;
+	text-decoration: none;
+	margin: 13px 61px;
+}
+
+#barra_menu a:hover{
+	text-decoration: underline;
+}
+
+#lado_esquerdo{
+	height: 400px;
+	width: 400px;
+	float: left;
+}
+
+#lista_nao_ordenada{
+	margin: 15px 30px;
+	list-style: square;
+}
+
+#lista_ordenada {
+	margin: 15px 30px;
+	list-style: upper-roman;
+}
+
+table, th, td {
+	border: 2px solid #000;
+}
+
+table{
+	border-collapse: collapse;
+	width: 90%;
+	margin-left: 20px;
+}
+th{
+	height: 35px;
+}
+td{
+	padding-left: 10px;
+}
+
+tr:hover{
+	background:-color: #ccc;
+	color: red;
+}
+tr:nth-child(even){
+	background-color: #ccc; 
+}
+
+#textodireita{
+	text-align: center;
+	font-weight: bold;
+}
+
+#total{
+	background-color: #000; 
+	color: #fff;
+}
+
+#lado_esquerdo img{
+	display: block;
+	border: 7px solid #002e68;
+	margin: 5px auto 15px;
+}
+
+#lado_direito p{
+	text-align: justify;
+	padding: 35px 20px;
+}
+
+#lado_direito{
+	height: 400px;
+	width: 400px;
+	float: right;
+}
+
+#lado_direito img{
+	display: block;
+	margin: 10px auto 15px;
+	border-radius: 10px;
+}
+
+#lado_direito p{
+	text-align: justify;
+	padding: 5px 20px;
+}
+
+#link_leiaMais{
+	float: right;
+	text-transform: uppercase;
+}
+
+#conteudo{
+	height: 400px;
+}
+#barra_rodape p{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 15px;
+	padding-top: 13px;
+	height: 25px;
+}
+
+h1{
+	text-align: center;
+	font: bold 16px verdana;
+	padding: 45px 0 20px;
+}
